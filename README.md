@@ -21,7 +21,9 @@ You can also find the slides I have used in my videos in /Slides.
 
 
 I explain the basics of the algorithm in these videos:
+
 English: https://youtu.be/zRy-IZgh3qo
+
 German: https://youtu.be/D_T7vwwd2T4
 
 
