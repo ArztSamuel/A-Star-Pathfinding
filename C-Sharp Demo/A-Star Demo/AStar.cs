@@ -152,7 +152,8 @@ namespace A_Star_Demo
                                             //Search for right node in openList to update costs and parent
                                             int oldIdx = openList.Find(new Node(neighbor, 0, 0), Node.PosComparer);
                                             Node newNode = new Node(openList[oldIdx].Position, newGCost, openList[oldIdx].HCost);
-                                            openList.Replace(newNode, oldIdx);
+                                            newNode.Parent = curParent;
+											openList.Replace(newNode, oldIdx);
                                             gCost[nbX, nbY] = newGCost;
                                         }
                                     }
